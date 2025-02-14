@@ -11,3 +11,4 @@ COPY . .
 EXPOSE 3000
 
 CMD [ "node", "users-app.js" ]
+

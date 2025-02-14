@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: users-api
-          image: academind/kub-dep-users:latest
+          image: sachinsoam8869/kub-dep-users:latest
           env:
             - name: MONGODB_CONNECTION_URI
               value: 'mongodb+srv://sachinsoam8869:pXhy0JaS4pEAgq7v@cluster0.jrimg.mongodb.net/users?retryWrites=true&w=majority&appName=Cluster0'
